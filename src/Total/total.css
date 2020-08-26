@@ -1,0 +1,40 @@
+.total{
+  display: inline-block;
+  width: 33%;
+}
+
+.total-card {
+  margin:0 auto;
+  height: 250px;
+  width: 250px;
+  background-color: #888;
+  border-radius: 10%;
+  box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-title{
+  color: white;
+}
+
+.total-value{
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width:600px) {
+  .total-container-outer{
+    margin-top:130px;
+  }
+
+  .total-title{
+    color:black;
+  }
+
+  .total{
+    display:block;
+    width:100%;
+  }
+}
